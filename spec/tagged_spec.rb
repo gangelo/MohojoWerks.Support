@@ -5,7 +5,6 @@ require_relative 'support/klass'
 describe 'module Tagged' do
   before(:each) do
     @it = Klass.new.extend(MohojoWerks::Support::Tagged)
-    #@it = Klass.new
   end
 
   it 'should mix in a #tags property' do
@@ -22,7 +21,7 @@ describe 'module Tagged' do
 
   it 'should return the correct value from the #name property' do
     return false unless @it.respond_to? :tags
-    @it.tags.push :tag
+    @it.tags << :tag
     expect(@it.tags.include?(:tag)).to eq(true)
   end
 end

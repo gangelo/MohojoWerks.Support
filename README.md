@@ -1,6 +1,6 @@
 # MohojoWerks.Support
 
-TODO: Write a gem description
+This gem contains modules and classes used in support of Mohojo Werks LLC software.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'MohojoWerks.Support'
 
 ## Contributing
 
